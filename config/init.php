@@ -10,8 +10,8 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'nshop');
-define("PATH", 'http://natashop');
-define("ADMIN", 'http://natashop/admin');
+define("PATH", 'http://natashop.loc');
+define("ADMIN", 'http://natashop.loc/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');
 
 require_once ROOT . '/vendor/autoload.php';
