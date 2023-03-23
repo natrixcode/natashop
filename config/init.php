@@ -1,6 +1,6 @@
 <?php
 
-define("DEBUG", 1);
+define("DEBUG", 0);
 define("ROOT", dirname(__DIR__));
 define("WWW", ROOT . '/public');
 define("APP", ROOT . '/app');
@@ -14,4 +14,4 @@ define("PATH", 'http://natashop.loc');
 define("ADMIN", 'http://natashop.loc/admin');
 define("NO_IMAGE", 'uploads/no_image.jpg');
 
-require_once ROOT . '/vendor/autoload.php';
+require_once ROOT . '/vendor/autoload.php'; 
