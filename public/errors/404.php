@@ -1,34 +1,24 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Free 404 White for Iphone, Android & Smartphone Mobile Website Template | Home :: w3layouts</title>
+    <title></title>
     <style type="text/css">
         body{
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .wrap{
-            width:1000px;
+            width: 33.3%;
             margin:0 auto;
         }
-        .logo{
-            width:430px;
-            position:absolute;
-            top:25%;
-            left:35%;
-        }
+       
         p a{
-            color:#eee;
+            color: #fff;
             font-size:13px;
             margin-left:30px;
             padding:5px;
-            background:#FF3366;
+            background:#FA8334;
             text-decoration:none;
             -webkit-border-radius:.3em;
             -moz-border-radius:.3em;
@@ -49,19 +39,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             text-decoration:none;
         }
 
+        .error {
+            font-size: 256px;
+            color: #101010;
+        }
+
     </style>
 </head>
 <body>
 <div class="wrap">
     <div class="logo">
-        <img src="/errors/images/404.png" alt=""  />
+        <h1 class="error">404</h1>
+        <img src="/errors/images/404.jpg" alt="" />
         <p><a href="<?=PATH;?>">Go back to Home</a></p>
     </div>
 </div>
-<div class="footer">
-    Design by - <a href="http://w3layouts.com">W3Layouts</a>
-</div>
-
 </body>
 </html>
 
