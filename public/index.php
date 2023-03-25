@@ -8,7 +8,7 @@ require_once dirname(__DIR__) . '/config/init.php';
 
 new \wfm\App();
 
-// throw new Exception('Error!!');
+throw new Exception('Error!!');
 
 echo "No Errors";
 

@@ -9,7 +9,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .wrap{
-            width: 33.3%;
+            width: 80%;
             margin:0 auto;
         }
        
@@ -44,12 +44,15 @@
             color: #101010;
         }
 
+        img {
+            width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
 <div class="wrap">
     <div class="logo">
-        <h1 class="error">404</h1>
         <img src="/errors/images/404.jpg" alt="" />
         <p><a href="<?=PATH;?>">Go back to Home</a></p>
     </div>
