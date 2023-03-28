@@ -214,3 +214,43 @@
 =================
 [2023-03-27 09:29:33] Error message: Error!! | File: /Applications/MAMP/htdocs/natashop/public/index.php | Line: 11
 =================
+[2023-03-28 12:48:29] Error message: Controller app\controllers\admin\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:48:42] Error message: Controller app\controllers\admin\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:49:27] Error message: Controller app\controllers\admin\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:49:28] Error message: Controller app\controllers\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:49:32] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 37
+=================
+[2023-03-28 12:49:37] Error message: Controller app\controllers\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:49:42] Error message: Controller app\controllers\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:49:55] Error message: Controller app\controllers\ProductController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 34
+=================
+[2023-03-28 12:51:55] Error message: Controller app\controllers\ProductController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 38
+=================
+[2023-03-28 12:52:08] Error message: Controller app\controllers\MainController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 38
+=================
+[2023-03-28 12:53:39] Error message: Method app\controllers\MainController::indexAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 35
+=================
+[2023-03-28 12:54:44] Error message: syntax error, unexpected token "::", expecting "(" | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 9
+=================
+[2023-03-28 12:54:52] Error message: syntax error, unexpected token ":", expecting "(" | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 9
+=================
+[2023-03-28 12:55:56] Error message: Controller app\controllers\PageController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 38
+=================
+[2023-03-28 12:57:20] Error message: Method app\controllers\PageController::viewAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 35
+=================
+[2023-03-28 12:59:42] Error message: Controller app\controllers\admin\PageController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 38
+=================
+[2023-03-28 12:59:54] Error message: Controller app\controllers\admin\ViewController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 38
+=================
+[2023-03-28 12:59:59] Error message: Method app\controllers\admin\MainController::indexAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 35
+=================
+[2023-03-28 13:06:41] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 42
+=================
+[2023-03-28 13:15:41] Error message: preg_match(): Argument #2 ($subject) must be of type string, array given | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 65
+=================
