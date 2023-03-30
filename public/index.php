@@ -20,7 +20,7 @@ new \wfm\App();
 
 // var_dump(\wfm\App::$app->getProperties());
 
-debug(\wfm\Router::getRoutes());
+// debug(\wfm\Router::getRoutes());
 
 
 ?>

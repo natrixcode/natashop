@@ -258,3 +258,23 @@
 =================
 [2023-03-29 17:14:53] Error message: Call to undefined method app\controllers\admin\MainController::getModel() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 46
 =================
+[2023-03-29 18:46:46] Error message: Call to undefined method app\controllers\admin\MainController::getModel() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 46
+=================
+[2023-03-30 17:09:28] Error message: Undefined property: wfm\View::$ | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 16
+=================
+[2023-03-30 17:10:21] Error message: Undefined property: wfm\View::$ | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 16
+=================
+[2023-03-30 17:20:13] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 30
+=================
+[2023-03-30 17:21:32] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 30
+=================
+[2023-03-30 17:30:16] Error message: Layout not found/Applications/MAMP/htdocs/natashop/app/views/layouts/nshop.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 40
+=================
+[2023-03-30 17:32:05] Error message: Layout not found/Applications/MAMP/htdocs/natashop/app/views/layouts/test2.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 40
+=================
+[2023-03-30 17:45:32] Error message: Layout not found/Applications/MAMP/htdocs/natashop/app/views/layouts/test2.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 40
+=================
+[2023-03-30 17:46:20] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-03-30 17:52:43] Error message: Layout not found/Applications/MAMP/htdocs/natashop/app/views/layouts/test.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 40
+=================
