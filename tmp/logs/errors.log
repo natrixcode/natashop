@@ -278,3 +278,11 @@
 =================
 [2023-03-30 17:52:43] Error message: Layout not found/Applications/MAMP/htdocs/natashop/app/views/layouts/test.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 40
 =================
+[2023-03-30 18:43:35] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/admin/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 32
+=================
+[2023-03-30 18:47:06] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/admin/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 32
+=================
+[2023-03-30 18:47:08] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/admin/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 32
+=================
+[2023-03-31 18:20:05] Error message: Undefined variable $test | File: /Applications/MAMP/htdocs/natashop/app/views/Main/index.php | Line: 3
+=================

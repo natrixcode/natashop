@@ -8,4 +8,9 @@ function debug($data, $die = false)
     }
 }
 
+function h($str) 
+{
+    return htmlspecialchars($str);
+}
+
 ?>
