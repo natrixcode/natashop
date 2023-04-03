@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use RedBeanPHP\R;
+use app\models\Main;
 use wfm\Controller;
 
 class MainController extends Controller
@@ -9,16 +11,13 @@ class MainController extends Controller
 
     public function indexAction() 
     {
-        $names = ['Nata', 'Levi', 'John'];
+        $names = $this->model->get_names();
+
+        $getnames = R::getRow( 'SELECT * FROM name WHERE id = 2');
 
         $this->setMeta('Main page', 'Description', 'Keywords');
 
         $this->set(compact('names')); //more comfortable to use
-
-        // $this->set(['names' => $names]);
-
-        // $this->set(['test' => 'TEST', 'name' => 'Nata']);
-        // $this->layout = 'default'; 
 
         // we can change to another layout (only existing one, ex : /layouts/default.php)
         // based on the title of layout

@@ -5,19 +5,8 @@ use wfm\View;
 /** @var $this View */
 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?= $this->getMeta();?>
-</head>
-<body>
+<?php $this->getPart('parts/header'); ?>
     
-    <?= $this->content; ?>
+<?= $this->content; ?>
 
-    <!-- <h1>Here you can see some content from layout!</h1> -->
-</body>
-</html>
+<?php $this->getPart('parts/footer'); ?>

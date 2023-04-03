@@ -286,3 +286,53 @@
 =================
 [2023-03-31 18:20:05] Error message: Undefined variable $test | File: /Applications/MAMP/htdocs/natashop/app/views/Main/index.php | Line: 3
 =================
+[2023-04-03 15:20:06] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 15:22:14] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 15:22:15] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 15:22:41] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 15:58:05] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-03 16:26:18] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:26:24] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:27:25] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:28:01] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:28:01] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:28:39] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:28:40] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:28:42] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:30:37] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:30:38] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 13
+=================
+[2023-04-03 16:32:20] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 16:33:05] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 16:33:29] Error message: require_once(/Applications/MAMP/htdocs/natashop/config/config/config_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 16:33:36] Error message: require_once(/Applications/MAMP/htdocs/natashop/configconfig_db.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Db.php | Line: 16
+=================
+[2023-04-03 16:34:24] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 29
+=================
+[2023-04-03 16:35:57] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 29
+=================
+[2023-04-03 16:36:44] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 29
+=================
+[2023-04-03 16:37:19] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 27
+=================
+[2023-04-03 16:37:32] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 27
+=================
+[2023-04-03 16:38:37] Error message: Cannot assign app\models\Main to property wfm\Controller::$model of type string | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Controller.php | Line: 27
+=================
