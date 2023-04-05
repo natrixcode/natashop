@@ -378,3 +378,35 @@
 =================
 [2023-04-03 17:43:58] Error message: View not found /Applications/MAMP/htdocs/natashop/app/views/admin/Main/index.php | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 34
 =================
+[2023-04-04 14:28:04] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-04 14:28:04] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-04 14:46:48] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-04 14:46:48] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-04 18:25:51] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-04 18:25:51] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 14:24:18] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 14:24:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 14:55:41] Error message: Undefined array key "title" | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 48
+=================
+[2023-04-05 14:57:27] Error message: Undefined array key "title" | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/View.php | Line: 48
+=================
+[2023-04-05 15:08:17] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 15:08:17] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 15:08:17] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 15:08:58] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 15:08:58] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-04-05 15:08:58] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================

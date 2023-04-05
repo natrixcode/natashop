@@ -57,7 +57,7 @@ class View
             $logs = R::getDatabaseAdapter()
                 ->getDatabase()
                 ->getLogger();
-            $logs = array_merge($logs->grep( 'SELECT' ), 
+            $logs = array_merge($logs->grep( 'SELECT' ),  
             $logs->grep( 'select' ), 
             $logs->grep( 'INSERT' ), 
             $logs->grep( 'UPDATE' ), 
