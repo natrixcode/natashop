@@ -7,35 +7,35 @@ use wfm\View;
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <h4>Информация</h4>
+                    <h4>Details</h4>
                     <ul class="list-unstyled">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О магазине</a></li>
-                        <li><a href="#">Оплата и доставка</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">About shop</a></li>
+                        <li><a href="#">Payment & delivery</a></li>
+                        <li><a href="#">Contacts</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Время работы</h4>
+                    <h4>Work schedule</h4>
                     <ul class="list-unstyled">
-                        <li>г. Киев, ул. Пушкина, 10</li>
-                        <li>пн-вс: 9:00 - 18:00</li>
-                        <li>без перерыва</li>
+                        <li>Fulton St.</li>
+                        <li>Mon-Wed: 9:00 - 18:00</li>
+                        <li>Without breaks</li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Контакты</h4>
+                    <h4>Contacts</h4>
                     <ul class="list-unstyled">
-                        <li><a href="tel:5551234567">555 123-45-67</a></li>
-                        <li><a href="tel:5551234567">555 123-45-68</a></li>
-                        <li><a href="tel:5551234567">555 123-45-69</a></li>
+                        <li><a href="tel:5551234567">xxx-xxx-xx-xx</a></li>
+                        <li><a href="tel:5551234567">xxx-xxx-xx-xx</a></li>
+                        <li><a href="tel:5551234567">xxx-xxx-xx-xx</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Мы в сети</h4>
+                    <h4>Social medias</h4>
                     <div class="footer-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
@@ -55,17 +55,17 @@ use wfm\View;
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <table class="table text-start">
                     <thead>
                     <tr>
-                        <th scope="col">Фото</th>
-                        <th scope="col">Товар</th>
-                        <th scope="col">Кол-во</th>
-                        <th scope="col">Цена</th>
+                        <th scope="col">Photos</th>
+                        <th scope="col">Products</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Price</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -97,15 +97,15 @@ use wfm\View;
                 </table>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger ripple" data-bs-dismiss="modal">Продолжить покупки</button>
-                <button type="button" class="btn btn-primary">Оформить заказ</button>
+                <button type="button" class="btn btn-danger ripple" data-bs-dismiss="modal">Continue shopping</button>
+                <button type="button" class="btn btn-primary">Submit order</button>
             </div>
         </div>
     </div>
 </div>
 
 
-
+<?php $this->getDbLogs();?>
 <script>
     const PATH = '<?= PATH ?>';
 </script>

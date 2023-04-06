@@ -1,5 +1,12 @@
+
 <?php 
     if (!empty($slides)): 
+?>
+
+<?php 
+
+if (!empty($products)):
+
 ?>
 
     <div class="container-fluid my-carousel">
@@ -38,162 +45,190 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title">Рекомендуемые товары</h3>
+                <h3 class="section-title">Recommended products</h3>
             </div>
 
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/iphone_1.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">iPhone iPhone iPhone iPhone iPhone</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Products -->
+              <?php $this->getPart('parts/products_loop', compact('products'));?>
 
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/canon_eos_5d_1.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">Canon EOS 5D</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/hp_1.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">HP</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/apple_cinema_30.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">Apple cinema 30"</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/imac_1.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">iMac</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 mb-3">
-                <div class="product-card">
-                    <div class="product-tumb">
-                        <a href="product.html"><img src="/assets/img/products/imac_1.jpg" alt=""></a>
-                    </div>
-                    <div class="product-details">
-                        <h4><a href="product.html">iMac</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
-                        <div class="product-bottom-details d-flex justify-content-between">
-                            <div class="product-price"><small>$96.00</small>$230.99</div>
-                            <div class="product-links">
-                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="far fa-heart"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+</div>
     </div>
-</section>
+</section> 
+<?php endif; ?>
 
-<section class="services">
+<!-- 
+<div class="card">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+  <div class="product-tumb">
+        <a href="product.html"><img src="/assets/img/products/iphone14.png" alt=""></a>
+    </div>
+    <div class="card__content">
+    <h4><a href="product.html">Product</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="card">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+  <div class="product-tumb">
+        <a href="product.html"><img src="/assets/img/products/airpods1.png" alt=""></a>
+    </div>
+    <div class="card__content">
+    <h4><a href="product.html">Product</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="card mt-4">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+  <div class="product-tumb">
+        <a href="product.html"><img src="/assets/img/products/airpodsmax1.png" alt=""></a>
+    </div>
+    <div class="card__content">
+    <h4><a href="product.html">Product</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="card mt-4">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+  <div class="product-tumb">
+        <a href="product.html"><img src="/assets/img/products/airpodsmax2.png" alt=""></a>
+    </div>
+    <div class="card__content">
+    <h4><a href="product.html">Product</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card mt-4">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+  <div class="product-tumb">
+        <a href="product.html"><img src="/assets/img/products/macbook1.png" alt=""></a>
+    </div>
+    <div class="card__content">
+    <h4><a href="product.html">Product</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- Cards ended -->
+
+
+
+<!-- <section class="services">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title">Наши преимущества</h3>
+                <h3 class="section-title">Our advantages</h3>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-shipping-fast"></i></p>
-                    <p>Прямые поставки от производителей</p>
+                    <p>Title</p>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-cubes"></i></p>
-                    <p>Широкий ассортимент товара</p>
+                    <p>Title</p>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-hand-holding-usd"></i></p>
-                    <p>Приятные и конкуретные цены</p>
+                    <p>Title</p>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-user-cog"></i></p>
-                    <p>Профессиональная консультация и сервис</p>
+                    <p>Title</p>
                 </div>
             </div>
 
         </div>
     </div>
-</section>
+</section> -->

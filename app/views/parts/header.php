@@ -23,11 +23,6 @@ use wfm\View;
     <div class="header-top py-3">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col">
-                    <a href="tel:5551234567">
-                        <span class="icon-phone">&#9743;</span> 555 123-45-67
-                    </a>
-                </div>
                 <div class="col text-end icons">
                     <form>
                         <div class="input-group" id="search">
@@ -50,20 +45,20 @@ use wfm\View;
                             <i class="far fa-user"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Авторизация</a></li>
-                            <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                            <li><a class="dropdown-item" href="#">Authorization</a></li>
+                            <li><a class="dropdown-item" href="#">Registration</a></li>
                         </ul>
                     </div>
 
                     <div class="dropdown d-inline-block">
                         <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
-                            <img src="/assets/img/ru.png" alt="">
+                            <img src="/assets/img/en.png" alt="">
                         </a>
                         <ul class="dropdown-menu" id="languages">
                             <li>
                                 <button class="dropdown-item" data-langcode="en">
-                                    <img src="/assets/img/en.png" alt="">
-                                    English</button>
+                                    <img src="/assets/img/ru.png" alt="">
+                                    parasha</button>
                             </li>
                         </ul>
                     </div>
@@ -78,7 +73,7 @@ use wfm\View;
 
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="index.html">Shop Brand</a>
+                    <a class="navbar-brand" href="index.html">Natashop</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -86,25 +81,25 @@ use wfm\View;
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="category.html">Компьютеры</a>
+                                <a class="nav-link" href="category.html">Computers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="category.html">Планшеты</a>
+                                <a class="nav-link" href="category.html">Tablets</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Ноутбуки
+                                    MacBooks
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="category.html">Mac</a></li>
-                                    <li><a class="dropdown-item" href="category.html">Windows</a></li>
+                                    <li><a class="dropdown-item" href="category.html">MacBook</a></li>
+                                    <li><a class="dropdown-item" href="category.html">iMac</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="category.html">Телефоны</a>
+                                <a class="nav-link" href="category.html">IPhones</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="category.html">Камеры</a>
+                                <a class="nav-link" href="category.html">Airpods</a>
                             </li>
                         </ul>
                     </div>
