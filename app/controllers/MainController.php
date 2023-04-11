@@ -19,7 +19,7 @@ class MainController extends AppController
         debug($products);
 
         $this->set(compact('slides', 'products'));
-
+        $this->setMeta("Main page", 'description', 'keywords');
     }
 }
 

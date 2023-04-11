@@ -274,6 +274,8 @@ li a.dropdown-item:focus, li a.dropdown-item:hover {
 /* Carousel */
 
 /* Product card */
+
+
 .product-card {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
     transition: all .3s;

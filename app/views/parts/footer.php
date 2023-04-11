@@ -71,7 +71,7 @@ use wfm\View;
                     <tbody>
                     <tr>
                         <td>
-                            <a href="#"><img src="/assets/img/products/apple_cinema_30.jpg" alt=""></a>
+                            <a href="#"><img src="<?= PATH ?>/assets/img/products/apple_cinema_30.jpg" alt=""></a>
                         </td>
                         <td><a href="#">Apple cinema</a></td>
                         <td>1</td>
@@ -79,7 +79,7 @@ use wfm\View;
                     </tr>
                     <tr>
                         <td>
-                            <a href="#"><img src="/assets/img/products/canon_eos_5d_1.jpg" alt=""></a>
+                            <a href="#"><img src="<?= PATH ?>/assets/img/products/canon_eos_5d_1.jpg" alt=""></a>
                         </td>
                         <td><a href="#">Canon EOS</a></td>
                         <td>1</td>
@@ -87,7 +87,7 @@ use wfm\View;
                     </tr>
                     <tr>
                         <td>
-                            <a href="#"><img src="/assets/img/products/hp_1.jpg" alt=""></a>
+                            <a href="#"><img src="<?= PATH ?>/assets/img/products/hp_1.jpg" alt=""></a>
                         </td>
                         <td><a href="#">HP</a></td>
                         <td>1</td>
@@ -109,7 +109,7 @@ use wfm\View;
 <script>
     const PATH = '<?= PATH ?>';
 </script>
-<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
