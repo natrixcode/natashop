@@ -16,7 +16,6 @@ class MainController extends AppController
         $slides = R::findAll('slider');
 
         $products = $this->model->get_hits(1, 4);
-        debug($products);
 
         $this->set(compact('slides', 'products'));
         $this->setMeta("Main page", 'description', 'keywords');

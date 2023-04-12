@@ -105,7 +105,7 @@ use wfm\View;
 </div>
 
 
-<?php $this->getDbLogs();?>
+<!-- <?php $this->getDbLogs();?> -->
 <script>
     const PATH = '<?= PATH ?>';
 </script>
