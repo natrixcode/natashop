@@ -18,7 +18,7 @@ class Main extends AppModel
         WHERE p.status = 1 
         AND p.hit = 1 
         AND pd.language_id = ? 
-        LIMIT $limit", [$lang]);
+        LIMIT $limit", [$lang['id']]);
     }
     // public function get_names(): array
     // {

@@ -9,7 +9,7 @@ class LanguageController extends AppController
 
     public function changeAction()
     {
-        $lang = $_GET['lang'] ?? null;
+        $lang = get('lang', 's');
         if ($lang) {
             if (array_key_exists($lang, App::$app->getProperty('languages')) && isset($_SERVER['HTTP_REFERER'])) {
                 $url = trim(str_replace(PATH, '', $_SERVER['HTTP_REFERER']), '/');
