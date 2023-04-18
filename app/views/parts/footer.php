@@ -7,26 +7,25 @@ use wfm\View;
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <h4>Details</h4>
+                    <h4><?php __('tpl_f_details'); ?></h4>
                     <ul class="list-unstyled">
-                        <li><a href="#">Main</a></li>
-                        <li><a href="#">About shop</a></li>
-                        <li><a href="#">Payment & delivery</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#"><?php __('tpl_f_main'); ?></a></li>
+                        <li><a href="#"><?php __('tpl_f_about_shop'); ?></a></li>
+                        <li><a href="#"><?php __('tpl_f_pay_delivery'); ?></a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Work schedule</h4>
+                    <h4><?php __('tpl_f_schedule'); ?></h4>
                     <ul class="list-unstyled">
-                        <li>Fulton St.</li>
-                        <li>Mon-Wed: 9:00 - 18:00</li>
-                        <li>Without breaks</li>
+                        <li><?php __('tpl_f_address'); ?></li>
+                        <li><?php __('tpl_f_wdays'); ?></li>
+                        <li><?php __('tpl_f_breaks'); ?></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Contacts</h4>
+                    <h4><?php __('tpl_f_contacts'); ?></h4>
                     <ul class="list-unstyled">
                         <li><a href="tel:5551234567">xxx-xxx-xx-xx</a></li>
                         <li><a href="tel:5551234567">xxx-xxx-xx-xx</a></li>
@@ -35,7 +34,7 @@ use wfm\View;
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Social medias</h4>
+                    <h4><?php __('tpl_f_socials'); ?></h4>
                     <div class="footer-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>

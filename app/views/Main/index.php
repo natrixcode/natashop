@@ -45,7 +45,7 @@ if (!empty($products)):
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title">Recommended products</h3>
+                <h3 class="section-title"><?php __('main_index_featured_products'); ?></h3>
             </div>
 
 <!-- Products -->

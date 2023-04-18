@@ -63,3 +63,14 @@ function post($key, $type = 's')
         return trim($$param);
     }
 }
+
+function __($key)
+{
+    echo \wfm\Language::get($key);
+}
+
+
+function ___($key)
+{
+    return \wfm\Language::get($key);
+}
