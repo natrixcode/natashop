@@ -3,6 +3,7 @@
     if (!empty($slides)): 
 ?>
 
+<?php debug($_SESSION); ?>
 <?php 
 
 if (!empty($products)):

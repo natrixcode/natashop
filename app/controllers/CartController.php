@@ -22,7 +22,17 @@ class CartController extends AppController
         }
 
         $product = $this->model->get_product($id, $lang);
-        debug($product, 1);
+        if (!$product) {
+            return false;
+        }
+
+        $this->model->add_to_cart($product, $qty);
+
+        if ($this->isAjax()) {
+            debug($_SESSION['cart'], 1);
+        }
+        redirect();
+        return true;
     }
 }
 ?>
