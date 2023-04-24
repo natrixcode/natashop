@@ -2,6 +2,13 @@ $(function() {
 
 	//cart
 
+	function showCart(cart) {
+		$('#cart-modal .modal-cart-content').html(cart);
+		const myModalEl = document.querySelector('#cart-modal');
+		const modal = bootstrap.Modal.getOrCreateInstance(myModalEl);
+		modal.show();
+	}
+
 	$('.add-to-cart').on('click', function (e) {
 		e.preventDefault();
 		const id = $(this).data('id');
@@ -14,8 +21,8 @@ $(function() {
 			data: {id: id, qty: qty},
 			success: function (res) {
 				console.log(res);
-				// showCart(res);
-				// $this.find('i').removeClass('fa-shopping-cart').addClass('fa-luggage-cart');
+				showCart(res);
+				$this.find('i').removeClass('fa-shopping-cart').addClass('fa-luggage-cart');
 			},
 			error: function () {
 				alert('Error!');
