@@ -26,4 +26,29 @@ return [
     'tpl_cart_btn_order' => 'Оформити замовлення',
     'tpl_cart_btn_clear' => 'Очистити кошик',
     'tpl_cart_empty' => 'Кошик пустий',
+
+    'tpl_login' => 'Авторизація',
+    'tpl_signup' => 'Реєстрація',
+    'tpl_logout' => 'Вхід',
+    'tpl_cabinet' => 'Кабінет',
+
+    'tpl_orders' => 'Замовлення',
+    'tpl_orders_files' => 'Файли',
+    'tpl_user_credentials' => 'Облікові дані',
+    'tpl_user_logout' => 'Вихід',
+
+    'tpl_signup_email_input' => 'E-mail',
+    'tpl_signup_password_input' => 'Пароль',
+    'tpl_signup_name_input' => 'Ім\'я',
+    'tpl_signup_address_input' => 'Адреса',
+
+    'tpl_search_title' => 'Пошук',
+    'tpl_search_query' => 'Пошук по: ',
+
+    'tpl_wishlist_add_success' => 'Товар додано до обраного',
+    'tpl_wishlist_add_error' => 'Помилка додавання товару до вибраного',
+    'tpl_wishlist_delete_success' => 'Товар видалено з обраного',
+    'tpl_wishlist_delete_error' => 'Помилка видалення товару з обраного',
+
+    'tpl_error_404' => '404 - Сторінка не знайдена',
 ];

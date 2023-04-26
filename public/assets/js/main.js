@@ -71,7 +71,7 @@ $(function() {
 			data: {id: id, qty: qty},
 			success: function (res) {
 				showCart(res);
-				$this.find('i').removeClass('fa-shopping-cart').addClass('fa-luggage-cart');
+				// $this.find('i').removeClass('fa-shopping-cart').addClass('fa-luggage-cart');
 			},
 			error: function () {
 				alert('Error!');
