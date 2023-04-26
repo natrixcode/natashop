@@ -7,6 +7,7 @@ use RedBeanPHP\R;
 use app\models\Main;
 use wfm\Cache;
 
+/** @property Main $model */
 class MainController extends AppController
 {
 

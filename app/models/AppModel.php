@@ -8,5 +8,3 @@ class AppModel extends Model
 {
 
 }
-
-?>

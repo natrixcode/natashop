@@ -1,15 +1,8 @@
-
-<?php 
-    if (!empty($slides)): 
+<?php
+use wfm\View;
+/** @var $this View */
 ?>
-
-<?php debug($_SESSION); ?>
-<?php 
-
-if (!empty($products)):
-
-?>
-
+<?php if (!empty($slides)): ?>
     <div class="container-fluid my-carousel">
 
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
@@ -37,11 +30,10 @@ if (!empty($products)):
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
     </div>
-
 <?php endif; ?>
 
+<?php if (!empty($products)): ?>
 <section class="featured-products">
     <div class="container">
         <div class="row">
@@ -49,11 +41,10 @@ if (!empty($products)):
                 <h3 class="section-title"><?php __('main_index_featured_products'); ?></h3>
             </div>
 
-<!-- Products -->
               <?php $this->getPart('parts/products_loop', compact('products'));?>
 
-</div>
-    </div>
+            </div>
+                </div>
 </section> 
 <?php endif; ?>
 

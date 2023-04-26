@@ -7422,3 +7422,19 @@
 =================
 [2023-04-25 13:19:47] Error message: Method app\controllers\CartController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-04-26 11:22:51] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-04-26 11:23:18] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-04-26 14:01:42] Error message: Method app\controllers\CartController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-04-26 15:10:21] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-04-26 15:10:21] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-04-26 15:10:21] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-04-26 15:10:21] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-04-26 15:10:21] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================

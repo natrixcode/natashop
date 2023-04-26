@@ -9,5 +9,3 @@ class ProductController extends AppController
         
     }
 }
-
-?>
