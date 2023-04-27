@@ -25,7 +25,7 @@
                 <?php endforeach; ?>
                 <tr>
                     <td colspan="4" class="text-end"><?php __('tpl_cart_total_qty') ?></td>
-                    <td class="cart-qty"><?= $_SESSION['cart.qty'] ?></td>
+                    <td class="cart_qty" id="cart-items-now"><?= $_SESSION['cart.qty']?></td>
                 </tr>
                 <tr>
                     <td colspan="4" class="text-end"><?php __('tpl_cart_sum') ?></td>

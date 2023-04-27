@@ -11,7 +11,7 @@ use wfm\App;
 class CartController extends AppController
 {
 
-    public function addAction(): bool
+    public function addAction(): bool 
     {
         $lang = App::$app->getProperty('language');
         $id = get('id');

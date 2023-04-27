@@ -8,8 +8,16 @@ function debug($data, $die = false)
     }
 }
 
+// function h($str)
+// {
+//     return htmlspecialchars($str);
+// }
+
 function h($str)
 {
+    if ($str === null) {
+        return '';
+    }
     return htmlspecialchars($str);
 }
 

@@ -35,7 +35,7 @@ use wfm\View;
 
                     <a href="#" class="relative" id="get-cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
                         <i class="fas fa-shopping-cart"></i>
-                        <span class="badge bg-danger rounded-pill count-items"><?= $_SESSION['cart.qty'] ?? 0 ?></span>
+                        <span id="cart-total-items" class="badge bg-danger rounded-pill count-items"><?= $_SESSION['cart.qty'] ?? 0 ?></span>
                     </a>
 
                     <a href="#"><i class="far fa-heart"></i></a>
