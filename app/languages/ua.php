@@ -15,6 +15,9 @@ return [
     'tpl_f_wdays' => 'Пн-Сд: 9:00 - 18:00',
     'tpl_f_breaks' => 'Без перерв',
 
+    'tpl_home_breadcrumbs' => '<i class="fas fa-home"></i>',
+    'tpl_total_pagination' => 'товару(ів) з',
+
     'tpl_cart_title' => 'Кошик',
     'tpl_cart_photo' => 'Фото',
     'tpl_cart_product' => 'Товар',

@@ -7610,3 +7610,73 @@
 =================
 [2023-04-27 18:43:01] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
 =================
+[2023-04-28 19:57:09] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-04-28 19:57:09] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-01 16:20:42] Error message: Class "app\controllers\Breadcrumbs" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/ProductController.php | Line: 20
+=================
+[2023-05-01 16:21:02] Error message: Class "app\models\App" not found | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 9
+=================
+[2023-05-01 16:21:28] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:21:58] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:24:29] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:24:33] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:24:35] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:29:00] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:30:11] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:30:16] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:30:32] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 17
+=================
+[2023-05-01 16:31:59] Error message: Controller app\controllers\CategoryController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-05-01 16:32:55] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:35:35] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:36:19] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:36:24] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:36:27] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:36:28] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:37:58] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:38:33] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:39:16] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:39:16] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:39:17] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:39:29] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:39:31] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:40:22] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:40:24] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:46:05] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:46:07] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:46:10] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:46:14] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:46:15] Error message: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | File: /Applications/MAMP/htdocs/natashop/app/models/Breadcrumbs.php | Line: 29
+=================
+[2023-05-01 16:51:43] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================

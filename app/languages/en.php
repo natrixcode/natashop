@@ -14,6 +14,9 @@ return [
     'tpl_f_address' => 'Fulton St.',
     'tpl_f_wdays' => 'Mon-Wed: 9:00 - 18:00',
     'tpl_f_breaks' => 'Without breaks',
+
+    'tpl_home_breadcrumbs' => '<i class="fas fa-home"></i>',
+    'tpl_total_pagination' => 'product(s) from',
     
     'tpl_cart_title' => 'Basket',
     'tpl_cart_photo' => 'Photo',
