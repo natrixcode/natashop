@@ -7680,3 +7680,7 @@
 =================
 [2023-05-01 16:51:43] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
 =================
+[2023-05-01 17:51:36] Error message: Товар за запитом tabletk не знайдено | File: /Applications/MAMP/htdocs/natashop/app/controllers/ProductController.php | Line: 18
+=================
+[2023-05-01 17:52:09] Error message: Товар за запитом tabletk не знайдено | File: /Applications/MAMP/htdocs/natashop/app/controllers/ProductController.php | Line: 18
+=================

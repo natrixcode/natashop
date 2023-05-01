@@ -15,7 +15,9 @@ class ProductController extends AppController
         $product = $this->model->get_product($this->route['slug'], $lang);
 
         if (!$product) {
-            throw new \Exception("Товар за запитом {$this->route['slug']} не знайдено", 404);
+            // throw new \Exception("Товар за запитом {$this->route['slug']} не знайдено", 404);
+            $this->error_404();
+            return;
         }
 
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($product['category_id'], $product['title']);
