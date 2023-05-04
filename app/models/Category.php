@@ -31,7 +31,7 @@ class Category extends AppModel
         return $ids;
     }
 
-    public function get_products($ids, $lang): array
+    public function get_products($ids, $lang, $start, $perpage): array
     {
         return R::getAll("SELECT p.*, pd.* 
         FROM product p 
@@ -40,7 +40,12 @@ class Category extends AppModel
         WHERE p.status = 1 
         AND p.category_id 
         IN ($ids) 
-        AND pd.language_id = ?", [$lang['id']]);
+        AND pd.language_id = ? LIMIT $start, $perpage", [$lang['id']]);
+    }
+
+    public function get_count_products($ids): int
+    {
+        return R::count('product', "category_id IN ($ids)");
     }
 
 }
