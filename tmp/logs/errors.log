@@ -7684,3 +7684,25 @@
 =================
 [2023-05-01 17:52:09] Error message: Товар за запитом tabletk не знайдено | File: /Applications/MAMP/htdocs/natashop/app/controllers/ProductController.php | Line: 18
 =================
+[2023-05-04 08:39:04] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 08:39:04] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 08:39:06] Error message: Controller app\controllers\CategoryController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-05-04 08:50:20] Error message: Class "app\controllers\App" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php | Line: 9
+=================
+[2023-05-04 08:50:29] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 08:50:35] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 08:50:42] Error message: Class "app\controllers\App" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php | Line: 9
+=================
+[2023-05-04 08:54:53] Error message: Class "app\controllers\Breadcrumbs" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php | Line: 20
+=================
+[2023-05-04 08:55:18] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 08:55:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-04 11:46:54] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
