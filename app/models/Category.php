@@ -1,13 +1,16 @@
 <?php
 
+
 namespace app\models;
 
-use RedBeanPHP\R;
+
+use RedBeanPHP\R; 
 use wfm\App;
 
 class Category extends AppModel
 {
-    public function get_category($slug, $lang): array 
+
+    public function get_category($slug, $lang): array
     {
         return R::getRow("SELECT c.*, cd.* 
         FROM category c 
@@ -40,7 +43,8 @@ class Category extends AppModel
         WHERE p.status = 1 
         AND p.category_id 
         IN ($ids) 
-        AND pd.language_id = ? LIMIT $start, $perpage", [$lang['id']]);
+        AND pd.language_id = ? 
+        LIMIT $start, $perpage", [$lang['id']]);
     }
 
     public function get_count_products($ids): int
