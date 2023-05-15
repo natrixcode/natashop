@@ -7802,3 +7802,31 @@
 =================
 [2023-05-04 18:59:17] Error message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
 =================
+[2023-05-04 19:15:06] Error message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+=================
+[2023-05-04 19:16:11] Error message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+=================
+[2023-05-04 19:16:56] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 17:47:26] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:02:37] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:03:52] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:04:01] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:04:42] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:19:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-15 18:21:52] Error message: syntax error, unexpected token ":" | File: /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php | Line: 25
+=================
+[2023-05-15 18:21:58] Error message: syntax error, unexpected token ":" | File: /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php | Line: 25
+=================
+[2023-05-15 18:22:29] Error message: Undefined variable $sort_values | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 39
+=================
+[2023-05-15 18:22:33] Error message: Undefined variable $sort_values | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 39
+=================
+[2023-05-15 18:22:48] Error message: Too few arguments to function app\models\Category::get_products(), 4 passed in /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php on line 32 and exactly 5 expected | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 37
+=================

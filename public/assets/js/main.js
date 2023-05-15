@@ -33,6 +33,16 @@ $(function() {
 
 	});
 
+
+	$('#input-sort').on('change', function (){
+		window.location = PATH + window.location.pathname + '?' + $(this).val();
+	});
+
+
+
+
+
+
 	// DELETE ITEM
 
 	$('#cart-modal .modal-cart-content').on('click', '.del-item', function (e) {
