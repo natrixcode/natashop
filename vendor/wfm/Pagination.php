@@ -134,8 +134,8 @@ class Pagination
     }
 
     public function getPagination(): int {
-        $defaultPerPage = APP::$app->getProperty('pagination');
-        $perpage = $defaultPerPage;
+        $def_perpage = APP::$app->getProperty('pagination');
+        $perpage = $def_perpage;
         if (isset($_GET['pagination'])) {
             $pagination = intval($_GET['pagination']);
             if ($pagination >= 3 && $pagination <= 100) {

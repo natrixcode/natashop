@@ -40,9 +40,7 @@ $(function() {
 
 	$('#input-pagination').on('change', function () {
 		window.location = PATH + window.location.pathname + '?' + $('#input-sort').val() + '&' +$(this).val();
-		
-
-	})
+	});
 
 
 	// DELETE ITEM
