@@ -54,8 +54,8 @@
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="input-sort"><?php __('category_view_sort_show'); ?>:</label>
                         <select class="form-select" id="input-pagination">
-                        <option value="pagination=<?php echo $pagination->default_perpage; ?>" <?php if (!isset($_GET['pagination']) || $_GET['pagination'] == $pagination->default_perpage) {echo 'selected';} ?>>
-                            <?php echo $pagination->default_perpage; ?></option>
+                        <option value="pagination=<?php echo $pagination->def_perpage; ?>" <?php if (!isset($_GET['pagination']) || $_GET['pagination'] == $pagination->def_perpage) {echo 'selected';} ?>>
+                            <?php echo $pagination->def_perpage; ?></option>
                             <option value="pagination=15" <?php if (isset($_GET['pagination']) && $_GET['pagination'] == 15) { echo 'selected';} ?>>15</option>
                             <option value="pagination=25" <?php if (isset($_GET['pagination']) && $_GET['pagination'] == 25) { echo 'selected';} ?>>25</option>
                             <option value="pagination=50" <?php if (isset($_GET['pagination']) && $_GET['pagination'] == 50) { echo 'selected';} ?>>50</option>

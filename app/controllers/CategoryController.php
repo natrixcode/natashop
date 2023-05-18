@@ -27,7 +27,7 @@ class CategoryController extends AppController
         $total = $this->model->get_count_products($ids);
     
         $pagination = new Pagination($page, $total);
-        $perpage = $pagination->getPerpage();
+        $perpage = $pagination->getPagination();
         $start = $pagination->getStart();
 
         $products = $this->model->get_products($ids, $lang, $start, $perpage);

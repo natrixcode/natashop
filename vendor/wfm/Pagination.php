@@ -8,7 +8,7 @@ use wfm\App;
 class Pagination
 {
 
-    public $default_perpage;
+    public $def_perpage;
     public $currentPage;
     public $perpage;
     public $total;
@@ -17,8 +17,8 @@ class Pagination
 
     public function __construct($page, $total)
     {
-        $this->default_perpage = App::$app->getProperty('pagination');
-        $this->perpage = $this->getPerpage();
+        $this->def_perpage = App::$app->getProperty('pagination');
+        $this->perpage = $this->getPagination();
         $this->total = $total;
         $this->countPages = $this->getCountPages();
         $this->currentPage = $this->getCurrentPage($page);
@@ -133,13 +133,16 @@ class Pagination
         return $uri;
     }
 
-    public function getPerpage():int {
-
-        if (isset($_GET['pagination']) && is_numeric($_GET['pagination']) && $_GET['pagination'] >= 3 && $_GET['pagination'] <= 100) {
-            return $this->perpage = ceil($_GET['pagination']);
-        } else {
-            return $this->perpage = APP::$app->getProperty('pagination');
+    public function getPagination(): int {
+        $defaultPerPage = APP::$app->getProperty('pagination');
+        $perpage = $defaultPerPage;
+        if (isset($_GET['pagination'])) {
+            $pagination = intval($_GET['pagination']);
+            if ($pagination >= 3 && $pagination <= 100) {
+                $perpage = ceil($pagination);
+            }
         }
+        return $perpage;
     }
 
 }

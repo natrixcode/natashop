@@ -7936,3 +7936,7 @@
 =================
 [2023-05-18 12:20:10] Error message: Too few arguments to function wfm\Pagination::__construct(), 2 passed in /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php on line 29 and exactly 3 expected | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 17
 =================
+[2023-05-18 18:40:59] Error message: Call to undefined method wfm\Pagination::getPerpage() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 21
+=================
+[2023-05-18 18:47:01] Error message: Call to undefined method wfm\Pagination::getPerpage() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 21
+=================
