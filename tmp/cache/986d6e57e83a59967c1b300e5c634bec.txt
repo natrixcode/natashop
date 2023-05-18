@@ -1,10 +1,10 @@
-a:2:{s:4:"data";s:310:"<li class="nav-item ">
+a:2:{s:4:"data";s:312:"<li class="nav-item ">
     <a class="nav-link " href="category/computers" >комп'ютери</a>
     </li>
 <li class="nav-item ">
     <a class="nav-link " href="category/tablets" >Планшети</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/iphone" >Айфон</a>
+    <a class="nav-link " href="category/iphone" >Айфони</a>
     </li>
-";s:8:"end_time";i:1684175130;}
+";s:8:"end_time";i:1684412872;}

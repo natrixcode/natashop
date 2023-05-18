@@ -38,9 +38,11 @@ $(function() {
 		window.location = PATH + window.location.pathname + '?' + $(this).val();
 	});
 
+	$('#input-pagination').on('change', function () {
+		window.location = PATH + window.location.pathname + '?' + $('#input-sort').val() + '&' +$(this).val();
+		
 
-
-
+	})
 
 
 	// DELETE ITEM

@@ -3,19 +3,22 @@
 
 namespace wfm;
 
+use wfm\App;
 
 class Pagination
 {
 
+    public $default_perpage;
     public $currentPage;
     public $perpage;
     public $total;
     public $countPages;
     public $uri;
 
-    public function __construct($page, $perpage, $total)
+    public function __construct($page, $total)
     {
-        $this->perpage = $perpage;
+        $this->default_perpage = App::$app->getProperty('pagination');
+        $this->perpage = $this->getPerpage();
         $this->total = $total;
         $this->countPages = $this->getCountPages();
         $this->currentPage = $this->getCurrentPage($page);
@@ -128,6 +131,15 @@ class Pagination
             }
         }
         return $uri;
+    }
+
+    public function getPerpage():int {
+
+        if (isset($_GET['pagination']) && is_numeric($_GET['pagination']) && $_GET['pagination'] >= 3 && $_GET['pagination'] <= 100) {
+            return $this->perpage = ceil($_GET['pagination']);
+        } else {
+            return $this->perpage = APP::$app->getProperty('pagination');
+        }
     }
 
 }

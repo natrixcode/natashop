@@ -7830,3 +7830,109 @@
 =================
 [2023-05-15 18:22:48] Error message: Too few arguments to function app\models\Category::get_products(), 4 passed in /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php on line 32 and exactly 5 expected | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 37
 =================
+[2023-05-17 18:15:13] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-17 18:15:13] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-18 11:22:37] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:17] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:18] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:34] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:35] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:38] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:39] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:39] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:23:43] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:24:35] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:24:35] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:26:44] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:26:45] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:26:48] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:26:50] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:26:52] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 18
+=================
+[2023-05-18 11:27:10] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 20
+=================
+[2023-05-18 11:27:11] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 20
+=================
+[2023-05-18 11:29:44] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:29:45] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:30:07] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:30:08] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:30:23] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:30:24] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:30:38] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:31:12] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:31:13] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:31:15] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:31:18] Error message: Creation of dynamic property wfm\Pagination::$def_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:33:10] Error message: Creation of dynamic property wfm\Pagination::$default_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:33:11] Error message: Creation of dynamic property wfm\Pagination::$default_perpage is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 11:35:08] Error message: Undefined property: wfm\Pagination::$default_perpage | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:35:44] Error message: Undefined property: wfm\Pagination::$DEFAULT_PER_PAGE | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:35:46] Error message: Undefined property: wfm\Pagination::$DEFAULT_PER_PAGE | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:36:12] Error message: syntax error, unexpected token "==", expecting "," or ";" | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 12
+=================
+[2023-05-18 11:36:18] Error message: Undefined property: wfm\Pagination::$def_perpage | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:36:23] Error message: Not found language : category | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-05-18 11:36:25] Error message: Undefined property: wfm\Pagination::$def_perpage | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:36:56] Error message: Undefined property: wfm\Pagination::$default_perpage | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 11:51:51] Error message: Undefined property: wfm\Pagination::$selected | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 60
+=================
+[2023-05-18 12:02:59] Error message: Constant expression contains invalid operations | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 12
+=================
+[2023-05-18 12:03:32] Error message: Constant expression contains invalid operations | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 10
+=================
+[2023-05-18 12:03:41] Error message: Constant expression contains invalid operations | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 10
+=================
+[2023-05-18 12:07:20] Error message: Call to undefined method wfm\Pagination::perpage() | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 12:07:37] Error message: Trying to access array offset on value of type int | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 12:08:49] Error message: Call to undefined method wfm\Pagination::getPerpage() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 12:11:36] Error message: Call to undefined method wfm\Pagination::getPerpage() | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 19
+=================
+[2023-05-18 12:14:53] Error message: Trying to access array offset on value of type float | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 12:15:05] Error message: syntax error, unexpected single-quoted string "pagination", expecting identifier or variable or "{" or "$" | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 12:15:14] Error message: Attempt to read property "pagination" on float | File: /Applications/MAMP/htdocs/natashop/app/views/Category/view.php | Line: 57
+=================
+[2023-05-18 12:20:10] Error message: Too few arguments to function wfm\Pagination::__construct(), 2 passed in /Applications/MAMP/htdocs/natashop/app/controllers/CategoryController.php on line 29 and exactly 3 expected | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Pagination.php | Line: 17
+=================
