@@ -45,9 +45,6 @@ return [
     'tpl_signup_name_input' => 'Ім\'я',
     'tpl_signup_address_input' => 'Адреса',
 
-    'tpl_search_title' => 'Пошук',
-    'tpl_search_query' => 'Пошук по: ',
-
     'tpl_wishlist_add_success' => 'Товар додано до обраного',
     'tpl_wishlist_add_error' => 'Помилка додавання товару до вибраного',
     'tpl_wishlist_delete_success' => 'Товар видалено з обраного',

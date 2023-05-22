@@ -4,7 +4,7 @@
 namespace app\models;
 
 
-use RedBeanPHP\R;
+use RedBeanPHP\R; 
 use wfm\App;
 
 class Category extends AppModel
@@ -12,7 +12,12 @@ class Category extends AppModel
 
     public function get_category($slug, $lang): array
     {
-        return R::getRow("SELECT c.*, cd.* FROM category c JOIN category_description cd on c.id = cd.category_id WHERE c.slug = ? AND cd.language_id = ?", [$slug, $lang['id']]);
+        return R::getRow("SELECT c.*, cd.* 
+        FROM category c 
+        JOIN category_description cd 
+        on c.id = cd.category_id 
+        WHERE c.slug = ? 
+        AND cd.language_id = ?", [$slug, $lang['id']]);
     }
 
     public function getIds($id): string
@@ -37,11 +42,21 @@ class Category extends AppModel
             'price_asc' => 'ORDER BY price ASC',
             'price_desc' => 'ORDER BY price DESC',
         ];
+
         $order_by = '';
         if (isset($_GET['sort']) && array_key_exists($_GET['sort'], $sort_values)) {
             $order_by = $sort_values[$_GET['sort']];
         }
-        return R::getAll("SELECT p.*, pd.* FROM product p JOIN product_description pd on p.id = pd.product_id WHERE p.status = 1 AND p.category_id IN ($ids) AND pd.language_id = ? $order_by LIMIT $start, $perpage", [$lang['id']]);
+
+        return R::getAll("SELECT p.*, pd.* 
+        FROM product p 
+        JOIN product_description pd 
+        on p.id = pd.product_id 
+        WHERE p.status = 1 
+        AND p.category_id 
+        IN ($ids) 
+        AND pd.language_id = ? 
+        $order_by LIMIT $start, $perpage", [$lang['id']]);
     }
 
     public function get_count_products($ids): int
