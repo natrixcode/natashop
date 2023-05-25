@@ -7950,3 +7950,17 @@
 =================
 [2023-05-22 09:37:09] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
 =================
+[2023-05-25 17:04:56] Error message: Class "app\controllers\Wishlist" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/AppController.php | Line: 33
+=================
+[2023-05-25 17:12:58] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-05-25 17:13:08] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-05-25 17:13:13] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-05-25 17:13:35] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-05-25 17:24:29] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-05-25 17:24:33] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
