@@ -8,11 +8,17 @@ use wfm\View;
             <div class="row">
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_f_details'); ?></h4>
-                    <ul class="list-unstyled">
+
+                    <?php new app\widgets\page\Page([
+                        // 'cache' => 0,
+                        'class' => 'list-unstyled',
+                        'prepend' => '<li><a href="' . base_url() . '">' . ___('tpl_f_main') . '</a></li>',
+                    ]) ?>
+                    <!-- <ul class="list-unstyled">
                         <li><a href="#"><?php __('tpl_f_main'); ?></a></li>
                         <li><a href="#"><?php __('tpl_f_about_shop'); ?></a></li>
                         <li><a href="#"><?php __('tpl_f_pay_delivery'); ?></a></li>
-                    </ul>
+                    </ul> -->
                 </div>
 
                 <div class="col-md-3 col-6">

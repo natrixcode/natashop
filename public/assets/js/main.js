@@ -161,7 +161,7 @@ $('.product-card').on('click', '.delete-from-wishlist', function (e) {
 });
 
 
-// END (WISHLIST)
+// END 
 
 	$('.open-search').click(function(e) {
 		e.preventDefault();

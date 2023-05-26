@@ -7964,3 +7964,11 @@
 =================
 [2023-05-25 17:24:33] Error message: Method app\controllers\WishlistController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-05-25 19:22:37] Error message: Too few arguments to function app\models\Wishlist::add_to_wishlist(), 1 passed in /Applications/MAMP/htdocs/natashop/app/controllers/WishlistController.php on line 31 and exactly 2 expected | File: /Applications/MAMP/htdocs/natashop/app/models/Wishlist.php | Line: 14
+=================
+[2023-05-25 19:22:41] Error message: Too few arguments to function app\models\Wishlist::add_to_wishlist(), 1 passed in /Applications/MAMP/htdocs/natashop/app/controllers/WishlistController.php on line 31 and exactly 2 expected | File: /Applications/MAMP/htdocs/natashop/app/models/Wishlist.php | Line: 14
+=================
+[2023-05-26 07:08:44] Error message: Controller app\controllers\PageController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================
+[2023-05-26 07:08:47] Error message: Controller app\controllers\PageController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
+=================

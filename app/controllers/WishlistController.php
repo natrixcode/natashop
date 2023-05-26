@@ -19,7 +19,7 @@ class WishlistController extends AppController
     }
 
 
-    public function addAction() 
+    public function addAction()
     {
         $id = get('id');
         if (!$id) {
