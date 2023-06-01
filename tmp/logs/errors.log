@@ -7974,3 +7974,21 @@
 =================
 [2023-05-26 07:23:01] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
 =================
+[2023-05-29 18:41:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-29 18:41:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-29 18:41:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-29 18:41:23] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-30 07:19:43] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-05-30 07:19:43] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-01 17:26:05] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-01 17:45:43] Error message: Call to undefined method app\models\User::load() | File: /Applications/MAMP/htdocs/natashop/app/controllers/UserController.php | Line: 18
+=================
+[2023-06-01 17:45:51] Error message: Method app\controllers\UserController::loginAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
