@@ -7992,3 +7992,21 @@
 =================
 [2023-06-01 17:45:51] Error message: Method app\controllers\UserController::loginAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-06-04 09:43:32] Error message: Fail to load language file '/Applications/MAMP/htdocs/natashop/app/languages/validator/lang/ru.php' | File: /Applications/MAMP/htdocs/natashop/vendor/vlucas/valitron/src/Valitron/Validator.php | Line: 118
+=================
+[2023-06-04 09:43:32] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-04 09:43:32] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-04 09:51:16] Error message: Fail to load language file '/Applications/MAMP/htdocs/natashop/app/languages/validator/lang/ua.php' | File: /Applications/MAMP/htdocs/natashop/vendor/vlucas/valitron/src/Valitron/Validator.php | Line: 118
+=================
+[2023-06-04 09:56:09] Error message: Undefined variable $lang | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Model.php | Line: 31
+=================
+[2023-06-04 09:56:52] Error message: Fail to load language file '/Applications/MAMP/htdocs/natashop/app/languages/validator/lang/lang.php' | File: /Applications/MAMP/htdocs/natashop/vendor/vlucas/valitron/src/Valitron/Validator.php | Line: 118
+=================
+[2023-06-04 10:01:36] Error message: Fail to load language file '/Applications/MAMP/htdocs/natashop/app/languages/validator/lang/lang.php' | File: /Applications/MAMP/htdocs/natashop/vendor/vlucas/valitron/src/Valitron/Validator.php | Line: 118
+=================
+[2023-06-04 10:01:44] Error message: Fail to load language file '/Applications/MAMP/htdocs/natashop/app/languages/validator/lang/language.php' | File: /Applications/MAMP/htdocs/natashop/vendor/vlucas/valitron/src/Valitron/Validator.php | Line: 118
+=================
+[2023-06-04 10:03:58] Error message: Access to undeclared static property Valitron\Validator::$app | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Model.php | Line: 32
+=================
