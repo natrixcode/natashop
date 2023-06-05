@@ -8010,3 +8010,29 @@
 =================
 [2023-06-04 10:03:58] Error message: Access to undeclared static property Valitron\Validator::$app | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Model.php | Line: 32
 =================
+[2023-06-05 13:55:28] Error message: Undefined variable $name | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 88
+=================
+[2023-06-05 14:08:04] Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nata@nata.nata' for key 'email' | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+=================
+[2023-06-05 14:14:08] Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'nata@nata.nata' for key 'email' | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+=================
+[2023-06-05 14:17:59] Error message: Class "app\models\R" not found | File: /Applications/MAMP/htdocs/natashop/app/models/User.php | Line: 36
+=================
+[2023-06-05 14:18:16] Error message: Class "app\models\R" not found | File: /Applications/MAMP/htdocs/natashop/app/models/User.php | Line: 36
+=================
+[2023-06-05 14:18:46] Error message: Class "app\models\R" not found | File: /Applications/MAMP/htdocs/natashop/app/models/User.php | Line: 36
+=================
+[2023-06-05 14:31:31] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-05 14:35:03] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-05 14:35:06] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-05 14:35:17] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-05 14:35:22] Error message: Not found language : login | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-05 14:36:42] Error message: Call to undefined method app\models\User::login() | File: /Applications/MAMP/htdocs/natashop/app/controllers/UserController.php | Line: 46
+=================
+[2023-06-05 14:47:12] Error message: Method app\controllers\UserController::cabinetAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================

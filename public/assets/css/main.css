@@ -13,7 +13,11 @@ body {
 	padding-top: 135px;
 }
 
-
+label.required::before {
+	content: "* ";
+	color: #f00;
+	font-weight: bold;
+}
 
 
 .card {

@@ -82,3 +82,8 @@ function ___($key)
 {
     return \wfm\Language::get($key);
 }
+
+function get_field_value($name)
+{
+    return isset($_SESSION['form_data'][$name]) ? h($_SESSION['form_data'][$name]) : '';
+}
