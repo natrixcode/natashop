@@ -8,16 +8,8 @@ function debug($data, $die = false)
     }
 }
 
-// function h($str)
-// {
-//     return htmlspecialchars($str);
-// }
-
 function h($str)
 {
-    if ($str === null) {
-        return '';
-    }
     return htmlspecialchars($str);
 }
 
@@ -36,6 +28,7 @@ function base_url()
 {
     return PATH . '/' . (\wfm\App::$app->getProperty('lang') ? \wfm\App::$app->getProperty('lang') . '/' : '');
 }
+
 /**
  * @param string $key Key of GET array
  * @param string $type Values 'i', 'f', 's'
@@ -77,10 +70,19 @@ function __($key)
     echo \wfm\Language::get($key);
 }
 
-
 function ___($key)
 {
     return \wfm\Language::get($key);
+}
+
+function get_cart_icon($id)
+{
+    if (!empty($_SESSION['cart']) && array_key_exists($id, $_SESSION['cart'])) {
+        $icon = '<i class="fas fa-luggage-cart"></i>';
+    } else {
+        $icon = '<i class="fas fa-shopping-cart"></i>';
+    }
+    return $icon;
 }
 
 function get_field_value($name)

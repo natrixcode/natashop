@@ -8052,3 +8052,27 @@
 =================
 [2023-06-12 18:03:40] Error message: Method app\controllers\UserController::cabinetAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-06-12 18:21:13] Error message: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/natashop/vendor/phpmailer/phpmailer/src/SMTP.php:291) | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 31
+=================
+[2023-06-12 18:21:46] Error message: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/natashop/vendor/phpmailer/phpmailer/src/SMTP.php:291) | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 31
+=================
+[2023-06-12 18:22:55] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 20
+=================
+[2023-06-12 18:23:32] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:24:18] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:24:52] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:25:17] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:25:32] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:25:50] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:26:07] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:26:23] Error message: Undefined array key "cart.total" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:26:30] Error message: Undefined array key "cart.qty" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 22
+=================
