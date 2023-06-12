@@ -8050,3 +8050,5 @@
 =================
 [2023-06-12 17:21:28] Error message: syntax error, unexpected token "public", expecting end of file | File: /Applications/MAMP/htdocs/natashop/app/controllers/CartController.php | Line: 69
 =================
+[2023-06-12 18:03:40] Error message: Method app\controllers\UserController::cabinetAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
