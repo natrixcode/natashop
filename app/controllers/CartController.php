@@ -5,13 +5,14 @@ namespace app\controllers;
 
 
 use app\models\Cart;
+use app\models\User;
 use wfm\App;
 
 /** @property Cart $model */
 class CartController extends AppController
 {
 
-    public function addAction(): bool 
+    public function addAction(): bool
     {
         $lang = App::$app->getProperty('language');
         $id = get('id');
@@ -27,7 +28,6 @@ class CartController extends AppController
         }
 
         $this->model->add_to_cart($product, $qty);
-
         if ($this->isAjax()) {
             $this->loadView('cart_modal');
         }
@@ -63,5 +63,34 @@ class CartController extends AppController
         $this->loadView('cart_modal');
         return true;
     }
+
+    public function viewAction()
+    {
+        $this->setMeta(___('tpl_cart_title'));
+    }
+
+    public function checkoutAction()
+    {
+        if (!empty($_POST)) {
+            if (!User::checkAuth()) {
+                $user = new User();
+                $data = $_POST;
+                $user->load($data);
+                if (!$user->validate($data) || !$user->checkUnique()) {
+                    $user->getErrors();
+                    $_SESSION['form_data'] = $data;
+                    redirect();
+                } else {
+                    $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                    if (!$user_id = $user->save('user')) {
+                        $_SESSION['errors'] = ___('cart_checkout_error_register');
+                        redirect();
+                    }
+                }
+            }
+
+        }
+        redirect();
+    }
+
 }
-?>
