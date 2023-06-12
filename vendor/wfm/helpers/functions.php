@@ -10,6 +10,9 @@ function debug($data, $die = false)
 
 function h($str)
 {
+    if ($str === null) {
+        return '';
+    }
     return htmlspecialchars($str);
 }
 

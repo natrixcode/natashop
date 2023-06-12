@@ -56,11 +56,11 @@ class Order extends AppModel
 
     public static function mailOrder($order_id, $user_email, $tpl): bool
     {
-        $mail = new PHPMailer(true);
+        $mail = new PHPMailer();
 
         try {
             $mail->isSMTP();
-            $mail->SMTPDebug = 3;
+            // $mail->SMTPDebug = 3;
             $mail->CharSet = 'UTF-8';
             $mail->Host = App::$app->getProperty('smtp_host');
             $mail->SMTPAuth = App::$app->getProperty('smtp_auth');

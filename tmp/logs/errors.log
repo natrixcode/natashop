@@ -8076,3 +8076,81 @@
 =================
 [2023-06-12 18:26:30] Error message: Undefined array key "cart.qty" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 22
 =================
+[2023-06-12 18:33:42] Error message: Unclosed '[' does not match ')' | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 51
+=================
+[2023-06-12 18:35:48] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:36:14] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:36:19] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:42:14] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:44:03] Error message: Undefined array key "cart" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:44:35] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 22
+=================
+[2023-06-12 18:47:33] Error message: Call to undefined method app\models\Order::saveOrderProduct() | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 36
+=================
+[2023-06-12 18:48:04] Error message: Undefined array key "cart" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 51
+=================
+[2023-06-12 18:51:50] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:51:56] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:52:09] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:52:21] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:53:52] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:56:51] Error message: Undefined array key "sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:56:56] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:58:53] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 18:59:01] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:01:34] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:02:08] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:02:30] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:03:23] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:03:56] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:05:06] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:05:29] Error message: Undefined array key "cart.total" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:07:57] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:16:44] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:16:47] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:16:56] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:16:59] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:17:03] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:17:05] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:17:07] Error message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 13
+=================
+[2023-06-12 19:45:01] Error message: Not found language : cart | File: /Applications/MAMP/htdocs/natashop/app/widgets/language/Language.php | Line: 41
+=================
+[2023-06-12 19:45:57] Error message: Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/natashop/vendor/phpmailer/phpmailer/src/SMTP.php:291) | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/helpers/functions.php | Line: 26
+=================
+[2023-06-12 19:48:06] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:48:10] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:48:39] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
+[2023-06-12 19:48:51] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
+=================
