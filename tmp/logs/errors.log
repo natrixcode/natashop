@@ -8154,3 +8154,9 @@
 =================
 [2023-06-12 19:48:51] Error message: Undefined array key "cart.sum" | File: /Applications/MAMP/htdocs/natashop/app/models/Order.php | Line: 21
 =================
+[2023-06-15 17:58:22] Error message: Method app\controllers\UserController::credentialsAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-06-15 17:58:33] Error message: Method app\controllers\UserController::credentialsAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-06-15 18:08:31] Error message: Method app\controllers\UserController::orderAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
