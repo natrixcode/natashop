@@ -8166,3 +8166,9 @@
 =================
 [2023-06-19 16:34:26] Error message: Method app\controllers\UserController::filesAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-06-19 16:54:20] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-19 16:54:20] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-19 17:05:55] Error message: Method app\controllers\UserController::downloadAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
