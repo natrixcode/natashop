@@ -8160,3 +8160,9 @@
 =================
 [2023-06-15 18:08:31] Error message: Method app\controllers\UserController::orderAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-06-19 16:27:35] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-19 16:27:35] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-19 16:34:26] Error message: Method app\controllers\UserController::filesAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
