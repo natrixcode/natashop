@@ -8172,3 +8172,7 @@
 =================
 [2023-06-19 17:05:55] Error message: Method app\controllers\UserController::downloadAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
 =================
+[2023-06-22 17:49:27] Error message: Too few arguments to function wfm\Model::load(), 0 passed in /Applications/MAMP/htdocs/natashop/app/controllers/UserController.php on line 20 and exactly 1 expected | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Model.php | Line: 20
+=================
+[2023-06-22 17:58:44] Error message: syntax error, unexpected variable "$this", expecting "function" or "const" | File: /Applications/MAMP/htdocs/natashop/app/controllers/UserController.php | Line: 77
+=================
