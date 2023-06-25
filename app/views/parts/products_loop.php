@@ -23,6 +23,7 @@
             <div class="product-details">
                 <h4><a href="product/<?= $product['slug'] ?>"><?= $product['title'] ?></a></h4>
                 <p><?= $product['exerpt'] ?></p>
+                <p><?= $product['created_at'] ?></p>
                 <div class="product-bottom-details d-flex justify-content-between">
                     <div class="product-price">
                         <?php if ($product['old_price']): ?>

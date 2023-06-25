@@ -10,6 +10,8 @@ return [
     'category_view_sort_title_desc' => 'Name (Z-A)',
     'category_view_sort_price_asc' => 'Price (low > high)',
     'category_view_sort_price_desc' => 'Price (high > low)',
+    'category_view_sort_by_new' => 'The newest',
+    'category_view_sort_by_old' => 'The oldest',
     'category_view_sort_show' => 'Show',
     'category_page_previous' => 'Previous',
     'category_page_next' => 'Next',

@@ -8176,3 +8176,28 @@
 =================
 [2023-06-22 17:58:44] Error message: syntax error, unexpected variable "$this", expecting "function" or "const" | File: /Applications/MAMP/htdocs/natashop/app/controllers/UserController.php | Line: 77
 =================
+[2023-06-25 13:14:57] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-25 13:14:57] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-06-25 20:30:29] Error message: syntax error, unexpected single-quoted string "by_old", expecting "]" | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 45
+=================
+[2023-06-25 20:36:54] Error message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' p.created_at
+        IN (2) 
+        AND pd.language_id = 1 
+        ORDER BY c' at line 6 | File: /Applications/MAMP/htdocs/natashop/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+=================
+[2023-06-25 20:40:45] Error message: syntax error, unexpected variable "$order_by", expecting "function" or "const" | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 56
+=================
+[2023-06-25 20:41:09] Error message: syntax error, unexpected variable "$order_by", expecting "function" or "const" | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 56
+=================
+[2023-06-25 20:41:10] Error message: syntax error, unexpected variable "$order_by", expecting "function" or "const" | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 56
+=================
+[2023-06-25 20:51:04] Error message: Undefined variable $products | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 48
+=================
+[2023-06-25 20:51:11] Error message: Undefined variable $product | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 48
+=================
+[2023-06-25 20:51:12] Error message: Undefined variable $product | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 48
+=================
+[2023-06-25 20:51:16] Error message: syntax error, unexpected token ")" | File: /Applications/MAMP/htdocs/natashop/app/models/Category.php | Line: 48
+=================

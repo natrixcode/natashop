@@ -18,7 +18,7 @@ class CategoryController extends AppController
             return;
         }
 
-        $breadcrumbs = Breadcrumbs::getBreadcrumbs($category['id']);
+        $breadcrumbs = Breadcrumbs::getBreadcrumbs($category['id']); 
         $ids = $this->model->getIds($category['id']);
         $ids = !$ids ? $category['id'] : $ids . $category['id'];
 

@@ -42,6 +42,10 @@
                                 <option value="sort=price_asc" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'price_asc') echo 'selected' ?>><?php __('category_view_sort_price_asc'); ?></option>
 
                                 <option value="sort=price_desc" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'price_desc') echo 'selected' ?>><?php __('category_view_sort_price_desc'); ?></option>
+
+                                <option value="sort=by_new" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'by_new') echo 'selected' ?>><?php __('category_view_sort_by_new'); ?></option>
+
+                                <option value="sort=by_old" <?php if (isset($_GET['sort']) && $_GET['sort'] == 'by_old') echo 'selected' ?>><?php __('category_view_sort_by_old'); ?></option>
                             </select>
                         </div>
                     </div>
@@ -49,7 +53,7 @@
             <?php endif; ?>
 
 
-            <?php if ($pagination->countPages > 1 || count($products) > 1): ?>
+            <?php if ($pagination->countPages > 1 || count($products) > 1): ?> 
             <div class="col-sm-6">
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="input-sort"><?php __('category_view_sort_show'); ?>:</label>

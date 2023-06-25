@@ -40,7 +40,9 @@ class Category extends AppModel
             'title_asc' => 'ORDER BY title ASC',
             'title_desc' => 'ORDER BY title DESC',
             'price_asc' => 'ORDER BY price ASC',
-            'price_desc' => 'ORDER BY price DESC',
+            'price_desc' => 'ORDER BY price DESC', 
+            'by_new' => 'ORDER BY p.created_at DESC',
+            'by_old' => 'ORDER BY p.created_at ASC',
         ];
 
         $order_by = '';
