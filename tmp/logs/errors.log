@@ -8207,3 +8207,9 @@
 =================
 [2023-06-29 13:52:58] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
 =================
+[2023-07-03 16:53:29] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-07-03 16:53:29] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-07-03 17:10:22] Error message: Method app\controllers\admin\UserController::editAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
