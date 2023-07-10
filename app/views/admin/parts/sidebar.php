@@ -38,14 +38,14 @@
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>Главная</p>
+                        <p>Main page</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/category" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p>Категории</p>
+                        <p>Categories</p>
                     </a>
                 </li>
 

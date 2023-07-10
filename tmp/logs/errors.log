@@ -8233,3 +8233,35 @@
 =================
 [2023-07-10 10:10:02] Error message: Class "app\controllers\admin\R" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/admin/CategoryController.php | Line: 21
 =================
+[2023-07-10 10:17:31] Error message: require(/Applications/MAMP/htdocs/natashop/app/widgets/menu/admin_select_tpl.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/app/widgets/menu/Menu.php | Line: 96
+=================
+[2023-07-10 10:18:52] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:18:56] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:19:39] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:19:39] Error message: require(/Applications/MAMP/htdocs/natashop/app/widgets/menu/admin_select_tpl.php): Failed to open stream: No such file or directory | File: /Applications/MAMP/htdocs/natashop/app/widgets/menu/Menu.php | Line: 96
+=================
+[2023-07-10 10:20:20] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:20:20] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:24:06] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:24:08] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:25:15] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:29:01] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:29:09] Error message: Class "app\controllers\AppController" not found | File: /Applications/MAMP/htdocs/natashop/app/controllers/MainController.php | Line: 11
+=================
+[2023-07-10 10:29:09] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:29:40] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:29:49] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================
+[2023-07-10 10:29:50] Error message: Call to undefined function get_field_array_value() | File: /Applications/MAMP/htdocs/natashop/app/views/admin/Category/add.php | Line: 45
+=================

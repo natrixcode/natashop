@@ -3,7 +3,10 @@
 
 namespace app\controllers\admin;
 
+use app\models\admin\Category;
 use RedBeanPHP\R;
+
+/** @property Category $model */
 
 class CategoryController extends AppController
 {
@@ -35,6 +38,21 @@ class CategoryController extends AppController
             $_SESSION['success'] = 'Категорія видалена';
         }
         redirect();
+    }
+
+    public function addAction()
+    {
+        if (!empty($_POST)) {
+            if ($this->model->category_validate()) {
+                $_SESSION['success'] = 'Категорія збережена';
+            } else {
+
+            }
+            redirect();
+        }
+        $title = 'Додавання категорії';
+        $this->setMeta("Адмінка :: {$title}");
+        $this->set(compact('title'));
     }
 
 }
