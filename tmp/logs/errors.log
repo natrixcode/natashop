@@ -8215,3 +8215,19 @@
 =================
 [2023-07-03 17:16:05] Error message: Controller app\controllers\admin\OrderController not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 59
 =================
+[2023-07-10 09:57:06] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-07-10 09:57:06] Error message: Page not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 62
+=================
+[2023-07-10 09:57:06] Error message: foreach() argument must be of type array|object, null given | File: /Applications/MAMP/htdocs/natashop/app/widgets/menu/Menu.php | Line: 76
+=================
+[2023-07-10 09:57:49] Error message: foreach() argument must be of type array|object, null given | File: /Applications/MAMP/htdocs/natashop/app/widgets/menu/Menu.php | Line: 79
+=================
+[2023-07-10 09:59:03] Error message: Method app\controllers\admin\CategoryController::editAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-07-10 09:59:05] Error message: Method app\controllers\admin\CategoryController::addAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-07-10 09:59:08] Error message: Method app\controllers\admin\CategoryController::editAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
+[2023-07-10 09:59:11] Error message: Method app\controllers\admin\CategoryController::deleteAction not found | File: /Applications/MAMP/htdocs/natashop/vendor/wfm/Router.php | Line: 56
+=================
